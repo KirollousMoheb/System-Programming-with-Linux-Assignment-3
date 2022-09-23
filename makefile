@@ -1,6 +1,6 @@
 #Make File for Static and Dynamic Linking of Femto Shell
 .PHONY: clean
-linking:=static 
+linking:=static
 
 ifeq ($(linking),static)
 myexe: main.o mylib.a
